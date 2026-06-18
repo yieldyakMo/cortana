@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Cortana heartbeat checks every four hours
+
+[Timer]
+OnBootSec=10m
+OnUnitActiveSec=4h
+RandomizedDelaySec=10m
+Persistent=true
+Unit=cortana-heartbeat.service
+
+[Install]
+WantedBy=timers.target

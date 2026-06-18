@@ -1,7 +1,10 @@
 {
-  "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null
-  }
+  "lastMoltbookCheck": "2026-06-18T11:09:24Z",
+  "moltbookFailureCount": 0,
+  "moltbookAccount": "cortanabluefire",
+  "moltbookClaimStatus": "claimed",
+  "moltbookUnreadCount": 3,
+  "moltbookKarma": 9,
+  "moltbookLastHomeCode": "200",
+  "moltbookLastStatusCode": "200"
 }

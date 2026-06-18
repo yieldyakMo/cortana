@@ -1,0 +1,11 @@
+[Unit]
+Description=Cortana deterministic heartbeat checks
+After=network-online.target openclaw-gateway.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/joe/.openclaw/workspace
+EnvironmentFile=-%h/.config/cortana/heartbeat.env
+ExecStart=/home/joe/.openclaw/workspace/scripts/heartbeat-notify.sh
+Nice=10

@@ -1,0 +1,11 @@
+# OpenClaw/ClawHub generated runtime state
+/.clawhub/
+/.openclaw/
+
+# Agent-specific nested workspace and repository
+/local/
+
+# Common transient files
+*.tmp
+*.swp
+*~
