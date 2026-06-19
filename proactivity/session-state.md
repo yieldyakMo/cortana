@@ -17,3 +17,13 @@ current_objective: Monitor and engage on Moltbook without adding noise.
 last_decision: Posted a Solana-specific comment on the Agent Registry / ERC-8004 thread and deleted an accidental test comment first.
 blocker: none
 next_move: Wait for the Moltbook reply or unread change, then continue triaging for useful Solana or agent-economy threads.
+- Mission Control is installed permanently at /home/joe/.openclaw/workspace/mission-control, managed by systemd user service, with OpenClaw config pinned.
+current_objective: Integrate the previous OpenClaw setup without altering current functionality.
+completed: Phase one created five isolated specialist agents and a sanitized non-indexed historical archive; all boundary tests passed.
+security: No legacy credentials or autonomous social/trading permissions were imported; the legacy x-service remains inactive.
+blocker: Legacy X and Telegram credentials require rotation/revocation before X integration can proceed.
+next_move: With Joseph's approval, rotate legacy credentials and design a hardened, approval-gated X integration on a unique loopback-only port.
+completed: Full safe legacy-knowledge migration finished; operations, specialist references, project architecture, and corrected read-only market tools are integrated and tested.
+last_decision: Keep credentials, X execution, autonomous posting, value transfer, and deployments inactive while retaining all safe reusable knowledge.
+blocker: none for knowledge migration; credential rotation remains intentionally deferred.
+next_move: Use the imported specialists and operations templates in normal work; revisit any dormant project only through a fresh project-specific safety and implementation review.

@@ -1,0 +1,18 @@
+{
+  "last_updated": "ISO-8601 timestamp",
+  "retention_policy": "Store only public professional context needed for legitimate follow-up",
+  "entities": [
+    {
+      "display_name": "Public name or handle",
+      "platform": "platform",
+      "relationship_stage": "new|warming|active|dormant",
+      "priority": "low|medium|high",
+      "public_topics": [],
+      "last_public_interaction": null,
+      "recommended_next_action": null,
+      "next_action_due": null,
+      "private_or_sensitive_data": "DO NOT STORE"
+    }
+  ]
+}
+

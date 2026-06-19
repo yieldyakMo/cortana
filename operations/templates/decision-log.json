@@ -1,0 +1,25 @@
+{
+  "ts": "ISO-8601 timestamp",
+  "context": "What was happening",
+  "objective": "What outcome was sought",
+  "decision": "Chosen action",
+  "alternatives": [],
+  "rationale": "Why this option was selected",
+  "evidence": [],
+  "assumptions": [],
+  "expected_outcome": "Observable success condition",
+  "confidence": 0.0,
+  "review_due": "ISO-8601 timestamp",
+  "outcome": null,
+  "lesson": null,
+  "tags": [],
+  "source": "manual",
+  "intent_snapshot": {
+    "boundary_type": "internal|external|value-transfer",
+    "expected_side_effects": [],
+    "reversibility_assumption": "What can and cannot be undone",
+    "dependency_map": [],
+    "witness_requirement": "Evidence needed to verify completion or rollback"
+  }
+}
+

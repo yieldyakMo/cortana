@@ -3,6 +3,23 @@
 ## Current Baseline
 - Workspace identity and operating rules were reconciled on 2026-06-17.
 - The agent should use the repo-local self-improving and proactivity files as working state.
+- The previous March 2026 OpenClaw setup was selectively integrated on
+  2026-06-19 without replacing current routing, services, or permissions.
+- Persistent specialists are `social-media-manager`, `content-planner`,
+  `social-x`, `community-ops`, and `market-research`; all are unbound,
+  unscheduled, and approval-gated for consequential actions.
+- Reusable decision, experiment, social, proactivity, and market-risk systems
+  live under `operations/`.
+- Legacy project architecture and unresolved risks live under
+  `projects/legacy/`; canonical source code remains `/home/joe/openclaw`.
+- Legacy X and Telegram credentials remain unrotated by explicit user choice
+  and must be treated as compromised. Do not activate the legacy X service.
+- Primary market-research focus is HTTPS
+  (`7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump`) and HAIL
+  (`CZV1Z24oDCDodMUA5saUfDy7T2kE7YxSid2JEbDopump`), especially Meteora DAMM
+  v2 pool `HJW8UpHGTNsiSzkYRTZd5pyRMqJqn26c1oFk2sSTbQ9h`. Joseph reports a
+  large position in the pair; do not store exact wallet or position details
+  unless explicitly provided.
 
 ## Benchmarks
 - On 2026-06-18, the raw Ollama API benchmark for `hf.co/Qwen/Qwen3-8B-GGUF:Q5_K_M` on the CPU VM took 27.86s total, with 17.14s load, 2.29s prompt eval, and 8.36s eval; the pre-reboot `qwen3.5:4b` baseline from 2026-06-14 took 14.08s total, with 9.39s load, 3.68s prompt eval, and 0.93s eval on the same prompt.

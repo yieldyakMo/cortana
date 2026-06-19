@@ -1,0 +1,19 @@
+{
+  "last_updated": "ISO-8601 timestamp",
+  "channels": {
+    "example": {
+      "pending_items": [
+        {
+          "reference": "thread-or-message-id",
+          "priority": "low|medium|high",
+          "reason": "Why it matters",
+          "recommended_action": "Draft-only recommendation",
+          "requires_approval": true
+        }
+      ],
+      "watch_topics": [],
+      "noise_policy": "Ignore spam and low-signal engagement unless safety requires attention"
+    }
+  }
+}
+

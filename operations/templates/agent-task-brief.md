@@ -1,0 +1,21 @@
+# Agent Task Brief
+
+- Job ID:
+- Created:
+- Owner: Cortana
+- Objective:
+- Decision or deliverable needed:
+- Audience:
+- Scope:
+- Out of scope:
+- Known facts:
+- Assumptions:
+- Sources or supplied context:
+- Freshness requirement:
+- Assigned specialist:
+- Specialist assignment:
+- Dependencies:
+- Constraints:
+- External-action boundary:
+- Success condition:
+- Due or timing context:

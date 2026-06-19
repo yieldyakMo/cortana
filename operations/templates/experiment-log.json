@@ -1,0 +1,23 @@
+{
+  "ts": "ISO-8601 timestamp",
+  "area": "domain",
+  "hypothesis": "Falsifiable claim",
+  "variant": "A",
+  "channel": "internal",
+  "asset_id": null,
+  "metric_primary": "Primary measurable outcome",
+  "metric_secondary": null,
+  "success_threshold": null,
+  "review_due": "ISO-8601 timestamp",
+  "status": "planned|running|won|lost|inconclusive",
+  "result": null,
+  "lesson": null,
+  "calibration_error": null,
+  "recovery_time": null,
+  "safety_checks": {
+    "capability_valid": null,
+    "state_fresh": null,
+    "reversible_until": null
+  }
+}
+

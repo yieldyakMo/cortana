@@ -171,6 +171,44 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### Specialist Agents
+
+Use the isolated OpenClaw agents when their specialty materially improves the
+result. They have no channel bindings, heartbeats, or autonomous schedules.
+
+- `social-media-manager` — coordinates campaigns and approval packets
+- `content-planner` — creates editorial calendars and platform-specific drafts
+- `social-x` — researches X and drafts posts or replies; never executes them
+- `community-ops` — plans community engagement, onboarding, and moderation
+- `market-research` — performs read-only crypto and market research
+
+The main agent remains responsible for reviewing specialist output and obtaining
+Joseph's explicit approval before any external social, moderation, or trading
+action. Historical material under `archive/legacy-openclaw/` is reference-only.
+
+#### Team orchestration
+
+Cortana is the intake owner, router, integrator, and final reviewer. Use
+`operations/agent-orchestration.md` as the canonical coordination protocol.
+
+- Create a canonical brief for coordinated or consequential work.
+- Give each specialist a bounded assignment and the same relevant context.
+- Run independent specialist work in parallel; keep dependent work sequential.
+- Require handoffs to separate conclusions, evidence, assumptions, uncertainty,
+  risks, deliverables, and the recommended next move.
+- Use `social-media-manager` to consolidate campaign-level social work.
+- Resolve conflicts using evidence, freshness, security, and Joseph's stated
+  objective. Preserve material dissent instead of inventing consensus.
+- Return one integrated result or approval packet to Joseph.
+- Do not let specialists independently publish, message, moderate, trade,
+  schedule, or represent drafts as approved.
+
+Shared templates:
+
+- `operations/templates/agent-task-brief.md`
+- `operations/templates/agent-handoff.md`
+- `operations/agent-jobs/`
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

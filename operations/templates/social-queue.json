@@ -1,0 +1,22 @@
+{
+  "id": "unique-id",
+  "created_at": "ISO-8601 timestamp",
+  "platform": "x|moltbook|telegram|discord|other",
+  "type": "post|reply|comment|announcement|dm",
+  "status": "draft|needs-verification|awaiting-approval|approved|published|rejected|archived",
+  "title": "Internal label",
+  "draft": "Exact proposed copy",
+  "content_pillar": "category",
+  "objective": "Why this should exist",
+  "sources": [],
+  "risk_notes": [],
+  "approval": {
+    "approved_by": null,
+    "approved_at": null,
+    "exact_copy_approved": false
+  },
+  "external_reference": null,
+  "review_due": null,
+  "outcome": null
+}
+

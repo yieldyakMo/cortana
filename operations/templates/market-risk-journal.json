@@ -1,0 +1,33 @@
+{
+  "ts": "ISO-8601 timestamp",
+  "asset": "symbol or address",
+  "context": "Market and data snapshot",
+  "action_under_review": "research|plan|hold|paper-entry|paper-exit",
+  "rationale": "Reasoning, not execution instruction",
+  "risk_level": "low|medium|high",
+  "position_size_pct": 0.0,
+  "signals": [],
+  "invalidation": "What breaks the thesis",
+  "expected_outcome": "Observable research result",
+  "review_due": "ISO-8601 timestamp",
+  "outcome": null,
+  "lesson": null,
+  "capability_gate": {
+    "research_only": true,
+    "data_fresh": false,
+    "source_verified": false
+  },
+  "liquidity_gate": {
+    "estimated_exit_slippage_pct": null,
+    "edge_budget_pct": null,
+    "result": "unknown|pass|fail"
+  },
+  "intent_snapshot": {
+    "boundary_type": "internal",
+    "expected_side_effects": ["research record only"],
+    "reversibility_assumption": "No external transaction is authorized",
+    "dependency_map": [],
+    "witness_requirement": "Timestamped sources and calculations"
+  }
+}
+
