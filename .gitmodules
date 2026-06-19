@@ -1,0 +1,3 @@
+[submodule "mission-control"]
+	path = mission-control
+	url = https://github.com/josephhale1986/mission-control.git
