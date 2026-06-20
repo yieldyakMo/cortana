@@ -33,3 +33,16 @@ Every proposed action should include:
 - recommended timing, clearly marked as a recommendation
 - explicit statement that the action is awaiting Joseph's approval
 
+## X content filter guardrails
+
+Avoid phrases, terms, and patterns that commonly trigger X's post filters when mentioning crypto/markets:
+
+- token names, project tickers, or token addresses in posts that look promotional
+- references to specific venues/mechanisms tied to token activity (DAMM v2, DLMM, pumps, traps)
+- excessive emphasis on price, yield, or return without explicit observational framing
+
+Safe posting style:
+- stick to strategic/operational observation about systems and behavior
+- remove project-specific identifiers when possible
+- keep claims general, factual, and non-promotional
+
