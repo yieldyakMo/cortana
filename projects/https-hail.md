@@ -54,7 +54,7 @@ without confirming Birdeye's selected market.
 
 ## Current safety posture
 
-- Research and scenario analysis only.
+- Research, scenario analysis, and public commentary are permitted.
 - No swaps, deposits, withdrawals, rebalancing, claims, or wallet connections.
 - No price or return guarantees.
 - Timestamp every live snapshot and identify unavailable fields.
