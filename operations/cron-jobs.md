@@ -11,7 +11,7 @@ Canonical schedule for Cortana automation.
 
 All jobs:
 - are approval-gated for any consequential action unless explicitly noted
-- output to local storage by default
+- Morning Market Briefing pushes to Telegram chat 7934320102
 - are staggered to reduce rate-limit collision
 
 ## Management
